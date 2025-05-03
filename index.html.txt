@@ -1,0 +1,165 @@
+AI利活用クイズ（銀行員向け）
+問1：生成AIに関する説明として、最も適切なものはどれですか？
+&lt;label>&lt;input type="radio" name="q1" value="A"> A. 文字等で入力した指示に基づき、文章・画像・映像・プログラムなどのコンテンツを作成できる人工知能である。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q1" value="B"> B. 人間が持つ全ての知的能力を再現できる人工知能であり、汎用AIとして知られている。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q1" value="C"> C. 事実や意味を真に理解してコンテンツを作成することを特徴とする人工知能である。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q1" value="D"> D. 特定のタスクに特化しており、学習能力は持たない人工知能である。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q1', 'A')">回答する&lt;/button>
+
+&lt;p id="result_q1">&lt;/p>
+
+問2：生成AIの仕組みに関する説明として、最も適切なものはどれですか？
+&lt;label>&lt;input type="radio" name="q2" value="A"> A. 入力された指示の意味を真に理解し、論理的な思考に基づいてコンテンツを作成する。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q2" value="B"> B. 学習した大量のデータから、確率に基づいてコンテンツを作成する。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q2" value="C"> C. 特定のアルゴリズムに従って、事前に定義されたルールに基づいてコンテンツを作成する。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q2" value="D"> D. インターネット上の情報をリアルタイムで検索し、その結果をそのまま出力する。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q2', 'B')">回答する&lt;/button>
+
+&lt;p id="result_q2">&lt;/p>
+
+問3：生成AIが得意な用途として挙げられているものはどれですか？
+&lt;label>&lt;input type="radio" name="q3" value="A"> A. 最新の情報に基づいた厳密な正確性が求められる判断。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q3" value="B"> B. 要約・言い換え・翻訳。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q3" value="C"> C. 法的な判断や専門的な診断。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q3" value="D"> D. 事実に基づいた過去の出来事の詳細な再現。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q3', 'B')">回答する&lt;/button>
+
+&lt;p id="result_q3">&lt;/p>
+
+問4：生成AIが不得意な用途として挙げられているものはどれですか？
+&lt;label>&lt;input type="radio" name="q4" value="A"> A. アイディア出し。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q4" value="B"> B. 要約。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q4" value="C"> C. 厳密な正確性が必要な情報。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q4" value="D"> D. 翻訳。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q4', 'C')">回答する&lt;/button>
+
+&lt;p id="result_q4">&lt;/p>
+
+問5：生成AIへの指示（プロンプト）の質を高めるために含めるとよいと考えられている要素はどれですか？
+&lt;label>&lt;input type="radio" name="q5" value="A"> A. 生成AIの開発者の個人情報。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q5" value="B"> B. 目的や対象などの前提条件、実施して欲しい内容、出力形式。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q5" value="C"> C. 生成AIがアクセスできるデータの具体的なリスト。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q5" value="D"> D. コンテンツ作成に必要な著作権情報。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q5', 'B')">回答する&lt;/button>
+
+&lt;p id="result_q5">&lt;/p>
+
+問6：生成AIの注意点に関する説明として、最も適切なものはどれですか？
+&lt;label>&lt;input type="radio" name="q6" value="A"> A. 生成AIは常に正確な答えを出力し、間違いは含まれない。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q6" value="B"> B. もとになった情報に間違いや偏りがあっても、応答には影響しない。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q6" value="C"> C. 確率に基づいて応答を生成するため、事実と異なる回答を生成する「ハルシネーション」が起きる可能性がある。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q6" value="D"> D. あたかも様々な知識を持っているかのような応答はしない。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q6', 'C')">回答する&lt;/button>
+
+&lt;p id="result_q6">&lt;/p>
+
+問7：「ハルシネーション」とはどのような現象を指しますか？
+&lt;label>&lt;input type="radio" name="q7" value="A"> A. 生成AIがユーザーの意図した通りの画像を生成する現象。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q7" value="B"> B. 生成AIが学習データから創造的な物語を生み出す現象。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q7" value="C"> C. 生成AIが確率に基づいて事実と異なる回答を生成する現象。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q7" value="D"> D. 生成AIが人間のような自然な対話を行う現象。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q7', 'C')">回答する&lt;/button>
+
+&lt;p id="result_q7">&lt;/p>
+
+問8：生成AIの利活用形態として挙げられているものはどれですか？
+&lt;label>&lt;input type="radio" name="q8" value="A"> A. 生成AIを開発し、特許を取得すること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q8" value="B"> B. 利用者自身が生成AIを利用してコンテンツを作成する、生成AIを活用した事業者のサービスを利用する、第三者が生成AIで作成したコンテンツに利用者が触れる、といった形態がある。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q8" value="C"> C. 生成AIの学習データを提供するのみの形態。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q8" value="D"> D. 生成AIの仕組みを研究し、論文を発表する形態。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q8', 'B')">回答する&lt;/button>
+
+&lt;p id="result_q8">&lt;/p>
+
+問9：文章生成AIを活用したチャットボットのサービス事例として最も適切なものはどれですか？
+&lt;label>&lt;input type="radio" name="q9" value="A"> A. 利用者の体型に合わせて服の試着画像を生成するサービス。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q9" value="B"> B. 事業者内の文書や回答履歴等をもとに、幅広い質問に対して人間のような自然な回答をする問い合わせ対応。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q9" value="C"> C. 政治家本人が話しているような偽動画を生成するサービス。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q9" value="D"> D. 既存の絵画に似たイラストを生成するサービス。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q9', 'B')">回答する&lt;/button>
+
+&lt;p id="result_q9">&lt;/p>
+
+問10：画像生成AIの活用事例として最も適切なものはどれですか？
+&lt;label>&lt;input type="radio" name="q10" value="A"> A. 事業者内の文書をもとに自然なメール文を作成する。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q10" value="B"> B. 人間のような自然な会話ができるAIフレンドを提供する。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q10" value="C"> C. オンラインで服を選ぶときに、体型や髪型が異なるモデルが服を着たときの画像を生成し、服のしわや伸び具合等を確認できる仮想試着。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q10" value="D"> D. 顧客からの問い合わせに自動で回答する。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q10', 'C')">回答する&lt;/button>
+
+&lt;p id="result_q10">&lt;/p>
+
+問11：生成AIを悪用した詐欺の事例として挙げられているものはどれですか？
+&lt;label>&lt;input type="radio" name="q11" value="A"> A. 生成AIで作成した偽動画をSNSで拡散する。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q11" value="B"> B. 生成AIでメール文を作成することで日本語に不自然さがなくなり、詐欺メールの発見が困難になることや、そっくりな音声を使って知人になりすまして詐欺を行うこと。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q11" value="C"> C. 生成AIを利用したチャットボットが、ユーザーに間違った情報を教える。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q11" value="D"> D. 生成AIで生成した偽のウェブサイトを作成する。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q11', 'B')">回答する&lt;/button>
+
+&lt;p id="result_q11">&lt;/p>
+
+問12：生成AIによる偽画像・偽動画の悪用事例として挙げられているものはどれですか？
+&lt;label>&lt;input type="radio" name="q12" value="A"> A. 意図していたものが正確に描けず、形状や位置関係に違和感のある画像が生成される。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q12" value="B"> B. 本物と見分けがつかないような偽画像・偽動画等を生成AIで簡単に生成できるようになり、政治家本人が話しているような偽動画や、災害時の被害に関する偽画像がSNSで拡散し、世論が誘導されたり、社会が不安定化・混乱したりすること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q12" value="C"> C. 生成AIが著作権を侵害する可能性のあるコンテンツを生成する。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q12" value="D"> D. 生成AIが個人のプライバシーを侵害する画像を生成する。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q12', 'B')">回答する&lt;/button>
+
+&lt;p id="result_q12">&lt;/p>
+
+問13：生成AIサービスを利用する前にチェックすべきこととして挙げられているものはどれですか？
+&lt;label>&lt;input type="radio" name="q13" value="A"> A. 利用したい生成AIサービスの開発者の国籍を確認すること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q13" value="B"> B. 政府の「AI事業者ガイドライン」に準拠しているかなど、安全安心に利用できる生成AIであるか確認すること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q13" value="C"> C. 生成AIサービスの将来的な収益性を予測すること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q13" value="D"> D. 生成AIサービスの学習データの内容を全て把握すること。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q13', 'B')">回答する&lt;/button>
+
+&lt;p id="result_q13">&lt;/p>
+
+問14：生成AIサービスを利用する際に利用規約やプライバシーポリシーを確認する必要がある理由として挙げられていることは何ですか？
+&lt;label>&lt;input type="radio" name="q14" value="A"> A. 利用規約を確認することで、生成AIの性能を最大限に引き出す方法を知ることができるため。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q14" value="B"> B. プライバシーポリシーを確認することで、自身の個人情報がAIの学習に利用されないことを保証するため。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q14" value="C"> C. 禁止されている使い方をしてはいけないことや、生成した画像や動画等の利用条件を確認するため。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q14" value="D"> D. 利用規約やプライバシーポリシーに記載された専門用語を学習するため。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q14', 'C')">回答する&lt;/button>
+
+&lt;p id="result_q14">&lt;/p>
+
+問15：生成AIへの入力に関して注意すべきこととして最も適切なものはどれですか？
+&lt;label>&lt;input type="radio" name="q15" value="A"> A. 入力した情報がAIの学習に利用され、そのまま他人に提供されたり、間違った情報と関連づけて提供されたりする可能性があるため、知られては困る情報は入力しないようにすること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q15" value="B"> B. 生成AIの性能を向上させるため、可能な限り詳細な個人情報を入力すること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q15" value="C"> C. 生成AIへの入力は匿名で行われるため、どのような情報を入力しても問題ない。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q15" value="D"> D. 入力した情報は自動的に暗号化されるため、情報漏洩の心配はない。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q15', 'A')">回答する&lt;/button>
+
+&lt;p id="result_q15">&lt;/p>
+
+問16：生成AIの応答内容に関する注意点として最も適切なものはどれですか？
+&lt;label>&lt;input type="radio" name="q16" value="A"> A. 生成AIの応答内容は常に正しいとは限らないため、専門的な判断が必要な内容は適切な専門家に確認すること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q16" value="B"> B. 生成AIの応答内容は、もとになった情報に間違いや偏りがあっても影響を受けないため、常に信頼できる。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q16" value="C"> C. ハルシネーション現象は稀にしか起きないため、応答内容を疑う必要はない。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q16" value="D"> D. 生成AIはあたかも様々な知識を持っているかのような応答をしないため、安心して利用できる。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q16', 'A')">回答する&lt;/button>
+
+&lt;p id="result_q16">&lt;/p>
+
+問17：生成AIで生成したコンテンツを公開する際に考慮すべきリスクとして挙げられているものはどれですか？
+&lt;label>&lt;input type="radio" name="q17" value="A"> A. 公開したコンテンツが既存の著作物と類似していると著作権等侵害になる可能性がある。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q17" value="B"> B. 公開したコンテンツが生成AIの学習データとして利用されること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q17" value="C"> C. 公開したコンテンツのクオリティが低く、評価されないこと。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q17" value="D"> D. 公開したコンテンツが、その生成AIサービスの利用規約に違反すること。&lt;/label>&lt;br>
+&lt;button type="button" onclick="checkAnswer('q17', 'A')">回答する&lt;/button>
+
+&lt;p id="result_q17">&lt;/p>
+
+問18：生成AIに購入等を促されたときの注意点として挙げられているものはどれですか？
+&lt;label>&lt;input type="radio" name="q18" value="A"> A. 生成AIの推奨は常に正しいため、指示に従ってすぐに購入すべきである。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q18" value="B"> B. 生成AIは利用者との対話を通じて購入等をするよう誘導する可能性があるため、必要性を考えて判断すること。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q18" value="C"> C. 生成AIとの対話履歴を保存する必要はない。&lt;/label>&lt;br>
+&lt;label>&lt;input type="radio" name="q18" value="D"> D. 生成AIに促された商品の価格は常に市場価格より安い。&lt;/label>&lt;br>
+&lt;button type="button
+
+
+
+
+
